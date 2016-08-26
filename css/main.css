@@ -1,1 +1,48 @@
 /* Inserta tu CSS aqui */
+
+.caja{
+	width:220px ;
+	height: 300px;
+	border:2px;
+	background-color:#D7DBDD  ;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	margin:5px;
+	color:#E7C125;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(184,178,184,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(184,178,184,1);
+	box-shadow: 10px 10px 5px 0px rgba(184,178,184,1);
+}
+
+h6{
+	font-family: 'Baloo Chettan', cursive;
+	color:black;
+}
+
+h4{
+	color:black;
+	font-size: 20px;
+}
+
+span{
+	font-size: 50px;
+	color:#898989;
+}
+
+.contenedor:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+.caja:hover{
+	-webkit-transform:scale(1.1);
+	height:305px;
+	width: 225px;
+
+}
+.caja:hover span{
+	font-size:80px;
+	color:#E7C125;
+	transition:1s;
+}
